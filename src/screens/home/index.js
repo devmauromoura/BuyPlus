@@ -63,7 +63,7 @@ const Home = (props) => {
                             <ButtonIcon name="format-list-bulleted"/>
                             <ButtonText>LISTAS</ButtonText>
                         </Button>
-                        <Button>
+                        <Button onPress={() => navigation.navigate('Products')}>
                             <ButtonIcon name="folder-plus"/>
                             <ButtonText>PRODUTOS</ButtonText>
                         </Button>
