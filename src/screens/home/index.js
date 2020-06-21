@@ -68,8 +68,8 @@ const Home = (props) => {
                             <ButtonText>PRODUTOS</ButtonText>
                         </Button>
                         <Button>
-                            <ButtonIcon name="cog-outline"/>
-                            <ButtonText>CONFIGURAÇÕES</ButtonText>
+                            <ButtonIcon name="cogs"/>
+                            <ButtonText>CONF.</ButtonText>
                         </Button>
                     </Body>
                 </Container>

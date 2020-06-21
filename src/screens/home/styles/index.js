@@ -59,7 +59,15 @@ export const Button = styled.TouchableOpacity`
     border-radius: 3px;
     border-width: 2px;
     border-color: ${colors.buttonborder};
+    align-items: center;
+    justify-content: center;
 `;
-export const ButtonText = styled.Text``;
+export const ButtonText = styled.Text`
+    font-weight: bold;
+    color: ${colors.textwhite};
+`;
 
-export const ButtonIcon = styled(Icon)``;
+export const ButtonIcon = styled(Icon)`
+    font-size: ${Dimensions.get('screen').width / 9}px;
+    color: ${colors.textwhite};
+`;
