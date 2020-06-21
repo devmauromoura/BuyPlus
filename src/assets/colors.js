@@ -4,6 +4,8 @@ const colors = {
     background: '#4ea8de',
     backgroundsecondary: '#fff1e6',
     button: '#c22222',
+    buttonsecondary: '#0077b6',
+    buttonborder: '#0096c7',
     textwhite: '#ffffff',
     textred: '#c22222',
     white: '#ffffff'

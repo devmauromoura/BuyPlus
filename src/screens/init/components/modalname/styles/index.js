@@ -9,7 +9,7 @@ export const Mod = styled(Modal)`
 
 export const Container = styled.View`
     width: 90%;
-    background-color: ${colors.backgroundsecondary};
+    background-color: ${colors.background};
     padding: 10px;
     align-items: center;
     border-radius: 3px;
@@ -19,7 +19,7 @@ export const Message = styled.Text`
     font-size: 17px;
     font-weight: bold;
     margin-bottom: 5px;
-    color: ${colors.textred};
+    color: ${colors.textwhite};
 `;
 
 export const Input = styled.TextInput`
