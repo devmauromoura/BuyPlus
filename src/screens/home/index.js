@@ -20,13 +20,13 @@ class Home extends Component {
     async componentDidMount() {
         const { navigation } = this.props;
         const name = await AsyncStorage.getItem('@user/name');
-        console.log('SDNAD', name)
             navigation.setOptions({
                 headerTitle: `Olá ${name ? name : 'usuário'}.`,
                 headerLeft: false
             });
     }
     render() {
+        const { navigation } = this.props;
         return (
             <Safe>
                 <Scroll>

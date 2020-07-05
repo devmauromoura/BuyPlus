@@ -9,6 +9,7 @@ import colors from '../assets/colors';
 import IndexScreen from '../screens/init';
 import Home from '../screens/home';
 import Products from '../screens/products';
+import DetailProducts from '../screens/products/screens/detailproduct';
 
 const Stack = createStackNavigator();
 
@@ -30,6 +31,7 @@ const Routes = () => {
             <Stack.Screen name="Index" component={IndexScreen} options={{headerShown: false}} />
             <Stack.Screen name="Home" component={Home} options={header} />
             <Stack.Screen name="Products" component={Products} options={header} />
+            <Stack.Screen name="DetailProducts" component={DetailProducts} options={header} />
           </Stack.Navigator>
       </NavigationContainer>
     )

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import colors from '../../../assets/colors';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {Dimensions} from 'react-native';
 
 export const Safe = styled.SafeAreaView`
@@ -33,4 +34,12 @@ export const CardTextContainer = styled.View`
 export const CardText = styled.Text`
     font-size: 17px;
     margin-right: 10px;
+`;
+
+export const HeaderButton = styled.TouchableOpacity`
+    margin-right: 15px;
+`;
+export const HeaderButtonIcon = styled(Icon)`
+    font-size:30px;
+    color: ${colors.white};
 `;
